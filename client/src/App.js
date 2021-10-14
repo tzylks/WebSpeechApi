@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Dictaphone from './components/Dictaphone'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Page Count: {count}</h1>
+      <Dictaphone />
     </div>
   );
 }
